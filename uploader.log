@@ -1,0 +1,976 @@
+2016-10-25 12:03:26 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:04:58 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:05:21 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:05:21 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:05:21 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:05:21 DEBUG RestLoggerImpl:16 - BirtUploader()
+2016-10-25 12:05:21 DEBUG RestLoggerImpl:16 - 
+2016-10-25 12:08:55 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:08:55 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:08:55 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:08:55 DEBUG RestLoggerImpl:16 - 
+2016-10-25 12:09:06 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:09:06 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:09:06 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:09:06 DEBUG RestLoggerImpl:16 - !!!!!!!!!
+2016-10-25 12:10:04 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:10:04 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:10:04 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:10:14 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:10:14 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:10:14 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:11:19 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:11:19 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:11:19 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:11:55 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:11:55 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:11:55 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:11:55 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:28:41 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:28:41 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:28:41 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:28:41 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:30:01 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:30:01 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:30:01 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:30:01 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:30:01 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:30:01 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:30:01 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:30:01 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:30:01 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:30:01 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:30:01 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:30:01 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:30:01 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:30:01 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:30:01 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:30:01 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:30:01 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:30:01 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:30:01 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 04:37:06 GMT[\r][\n]"
+2016-10-25 12:30:01 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:30:01 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:30:01 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:30:01 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:30:01 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:30:01 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:30:01 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:30:01 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:30:01 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:30:01 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:30:01 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:30:01 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 04:37:06 GMT
+2016-10-25 12:30:01 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:30:01 DEBUG RestLoggerImpl:16 - org.apache.http.conn.BasicManagedEntity@31a5c39e
+2016-10-25 12:30:18 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:30:18 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:30:18 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:30:18 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:30:18 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:30:18 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:30:18 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:30:18 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:30:18 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:30:18 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:30:18 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:30:18 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:30:18 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:30:18 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:30:18 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:30:18 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:30:18 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:30:18 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:30:18 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 04:37:25 GMT[\r][\n]"
+2016-10-25 12:30:18 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:30:18 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:30:18 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:30:18 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:30:18 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:30:18 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:30:18 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:30:18 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:30:18 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:30:18 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:30:18 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:30:18 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 04:37:25 GMT
+2016-10-25 12:30:18 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:30:18 DEBUG RestLoggerImpl:16 - org.apache.http.conn.EofSensorInputStream@e45f292
+2016-10-25 12:31:10 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:31:10 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:31:10 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:31:10 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:31:10 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:31:10 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:31:10 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:31:10 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:31:10 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:31:10 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:31:10 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:31:10 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:31:10 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:31:10 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:31:10 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:31:10 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:31:10 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:31:10 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:31:10 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 04:38:21 GMT[\r][\n]"
+2016-10-25 12:31:10 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:31:10 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:31:10 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:31:10 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:31:10 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:31:10 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:31:10 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:31:10 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:31:10 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:31:10 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:31:10 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:31:10 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 04:38:21 GMT
+2016-10-25 12:31:10 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:31:10 DEBUG RestLoggerImpl:16 - org.apache.http.conn.EofSensorInputStream@5700d6b1
+2016-10-25 12:35:47 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:35:47 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:35:47 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:35:47 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:35:48 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:35:49 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:35:49 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:35:49 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:35:49 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:35:49 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:35:49 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:35:49 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:35:49 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:35:49 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:35:49 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:35:49 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:35:49 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:35:49 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:35:49 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 04:43:22 GMT[\r][\n]"
+2016-10-25 12:35:49 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:35:49 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:35:49 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:35:49 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:35:49 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:35:49 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:35:49 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:35:49 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:35:49 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:35:49 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:35:49 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:35:49 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 04:43:22 GMT
+2016-10-25 12:35:49 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:35:49 DEBUG wire:86 -  << "{"authToken":"ulsTnBUn5Xjl3SEoO7UufobKBi9hVqDl94WyJsooeJbAja5+Vfw5esR/Z0PC84zVazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbZHZJcABuXUmI7B2XTb+xr0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:35:49 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59494225
+2016-10-25 12:35:49 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:35:49 DEBUG RestLoggerImpl:16 - {"authToken":"ulsTnBUn5Xjl3SEoO7UufobKBi9hVqDl94WyJsooeJbAja5+Vfw5esR/Z0PC84zVazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbZHZJcABuXUmI7B2XTb+xr0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:35:49 DEBUG RestLoggerImpl:16 - org.apache.http.conn.EofSensorInputStream@6e1567f1
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:42:59 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:42:59 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:42:59 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:42:59 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:42:59 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:42:59 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:42:59 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:42:59 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:42:59 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:42:59 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:42:59 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:42:59 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:42:59 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:42:59 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:42:59 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 04:51:09 GMT[\r][\n]"
+2016-10-25 12:42:59 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:42:59 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:42:59 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:42:59 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:42:59 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:42:59 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:42:59 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:42:59 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:42:59 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:42:59 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:42:59 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:42:59 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 04:51:09 GMT
+2016-10-25 12:42:59 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:42:59 DEBUG wire:86 -  << "{"authToken":"cnDlJntDT+NPkEmh+/WWuuAYwW0rXjR6rOV4oBbxpZ+wSeQPZ0oreftQqZgEH3NSazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbSJCHcEZhvx/JgB5hrvbuWEtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:42:59 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:42:59 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - cnDlJntDT+NPkEmh+/WWuuAYwW0rXjR6rOV4oBbxpZ+wSeQPZ0oreftQqZgEH3NSazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbSJCHcEZhvx/JgB5hrvbuWEtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - {"authToken":"cnDlJntDT+NPkEmh+/WWuuAYwW0rXjR6rOV4oBbxpZ+wSeQPZ0oreftQqZgEH3NSazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbSJCHcEZhvx/JgB5hrvbuWEtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:42:59 DEBUG RestLoggerImpl:16 - org.apache.http.conn.EofSensorInputStream@bd8db5a
+2016-10-25 12:43:14 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:43:14 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:43:14 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:43:14 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:43:15 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:43:15 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:43:15 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:43:15 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:43:15 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:43:15 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:43:15 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:43:15 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:43:15 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:43:15 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:43:15 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:43:15 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:43:15 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:43:15 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:43:15 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 04:51:26 GMT[\r][\n]"
+2016-10-25 12:43:15 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:43:15 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:43:15 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:43:15 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:43:15 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:43:15 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:43:15 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:43:15 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:43:15 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:43:15 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:43:15 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:43:15 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 04:51:26 GMT
+2016-10-25 12:43:15 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:43:15 DEBUG wire:86 -  << "{"authToken":"cnDlJntDT+P2gz7snlZRPndNTC3vRckMwZfXp91bXt8npzqJ3VQTGtA1OC8cWHp7azWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbbtCI4QK5/TbS89J1xV2prktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:43:15 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:43:15 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:43:15 DEBUG RestLoggerImpl:16 - !!!!!!!!!!!!cnDlJntDT+P2gz7snlZRPndNTC3vRckMwZfXp91bXt8npzqJ3VQTGtA1OC8cWHp7azWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbbtCI4QK5/TbS89J1xV2prktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE
+2016-10-25 12:43:15 DEBUG RestLoggerImpl:16 - {"authToken":"cnDlJntDT+P2gz7snlZRPndNTC3vRckMwZfXp91bXt8npzqJ3VQTGtA1OC8cWHp7azWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbbtCI4QK5/TbS89J1xV2prktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:43:15 DEBUG RestLoggerImpl:16 - org.apache.http.conn.EofSensorInputStream@bd8db5a
+2016-10-25 12:54:28 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:54:28 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:54:28 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:54:28 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:54:29 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:54:29 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:54:29 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:54:29 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:54:29 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:54:29 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:54:29 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:54:29 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:54:29 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:54:29 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:54:29 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:54:29 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:54:29 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:54:29 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:54:29 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:03:36 GMT[\r][\n]"
+2016-10-25 12:54:29 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:54:29 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:54:29 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:54:29 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:54:29 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:54:29 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:54:29 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:54:29 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:54:29 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:54:29 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:54:29 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:54:29 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:03:36 GMT
+2016-10-25 12:54:29 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:54:29 DEBUG wire:86 -  << "{"authToken":"OKAzT7uyzgANfSgWJsbZyRBntcFPdEW/pw2zgnkXwY2nOAj8WwN0AqPtCFgHNl0dazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbC1ktSnSCDDU315qwv1zog0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:54:29 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:54:29 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:54:29 DEBUG RestLoggerImpl:16 - {"authToken":"OKAzT7uyzgANfSgWJsbZyRBntcFPdEW/pw2zgnkXwY2nOAj8WwN0AqPtCFgHNl0dazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbC1ktSnSCDDU315qwv1zog0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:55:07 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:55:07 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:55:07 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:55:07 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:55:07 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:55:07 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:55:07 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:55:07 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:55:07 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:55:07 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:55:07 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:55:07 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:55:07 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:55:07 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:55:07 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:55:07 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:55:07 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:55:07 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:55:07 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:04:18 GMT[\r][\n]"
+2016-10-25 12:55:07 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:55:07 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:55:07 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:55:07 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:55:07 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:55:07 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:55:07 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:55:07 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:55:07 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:55:07 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:55:07 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:55:07 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:04:18 GMT
+2016-10-25 12:55:07 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:55:07 DEBUG wire:86 -  << "{"authToken":"OKAzT7uyzgDaqFVhFRpV6KfBof2MEGouPcD4w7sG+llwOioHbp16KA5ShC4rN/PNazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbycfW7HuHqJKAlai9PmWlZ0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:55:07 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:55:07 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:55:07 DEBUG RestLoggerImpl:16 - {"authToken":"OKAzT7uyzgDaqFVhFRpV6KfBof2MEGouPcD4w7sG+llwOioHbp16KA5ShC4rN/PNazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbycfW7HuHqJKAlai9PmWlZ0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:55:29 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:55:29 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:55:29 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:55:29 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:55:29 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:55:29 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:55:29 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:55:29 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:55:29 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:55:29 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:55:29 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:55:29 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:55:29 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:55:29 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:55:29 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:55:29 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:55:29 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:55:29 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:55:29 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:04:42 GMT[\r][\n]"
+2016-10-25 12:55:29 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:55:29 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:55:29 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:55:29 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:55:29 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:55:29 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:55:29 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:55:29 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:55:29 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:55:29 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:55:29 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:55:29 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:04:42 GMT
+2016-10-25 12:55:29 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:55:29 DEBUG wire:86 -  << "{"authToken":"OKAzT7uyzgCANeVp3U61BZ5Hu/dM3bjGGPqpmeAp0H7OiYsnvRX3dW2hpR6jRXjBazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbXAkONiuRN90rgexQE9wFWktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:55:29 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:55:29 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:55:29 DEBUG RestLoggerImpl:16 - {"authToken":"OKAzT7uyzgCANeVp3U61BZ5Hu/dM3bjGGPqpmeAp0H7OiYsnvRX3dW2hpR6jRXjBazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbXAkONiuRN90rgexQE9wFWktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:55:52 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:55:52 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:55:52 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:55:52 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:55:52 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:55:52 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:55:52 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:55:52 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:55:52 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:55:52 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:55:52 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:55:52 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:55:52 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:55:52 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:55:52 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:55:52 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:55:52 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:55:52 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:55:52 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:55:52 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:55:52 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:55:53 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:55:53 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:55:53 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:55:53 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:05:07 GMT[\r][\n]"
+2016-10-25 12:55:53 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:55:53 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:55:53 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:55:53 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:55:53 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:55:53 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:55:53 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:55:53 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:55:53 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:55:53 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:55:53 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:55:53 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:05:07 GMT
+2016-10-25 12:55:53 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:55:53 DEBUG wire:86 -  << "{"authToken":"uOxDI1AJiinRJmkV9OKcnDLrgKLY0yI6weSTIVGFgfaDzcYCFMlnamsTHOKVBlyQazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbGlNMNxA/vQHYLSvjaeOM0ktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:55:53 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:55:53 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:55:53 DEBUG RestLoggerImpl:16 - {"authToken":"uOxDI1AJiinRJmkV9OKcnDLrgKLY0yI6weSTIVGFgfaDzcYCFMlnamsTHOKVBlyQazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbGlNMNxA/vQHYLSvjaeOM0ktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:55:53 DEBUG RestLoggerImpl:16 - ++++++null
+2016-10-25 12:56:11 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:56:11 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:56:11 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:56:11 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:56:12 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:56:12 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:56:12 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:56:12 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:56:12 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:56:12 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:56:12 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:56:12 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:12 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:56:12 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:56:12 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:56:12 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:56:12 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:56:12 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:05:27 GMT[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:56:12 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:56:12 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:56:12 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:56:12 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:56:12 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:56:12 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:56:12 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:05:27 GMT
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:56:12 DEBUG wire:86 -  << "{"authToken":"uOxDI1AJiikev87oz/KXOYw22g/mk3iKi0LF1Mp3OlwIWPZyogQiNRM/MZuHSEX1azWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbTR3u6sBZ//ijfpflyC39z0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:56:12 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:56:12 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:56:12 DEBUG RestLoggerImpl:16 - {"authToken":"uOxDI1AJiikev87oz/KXOYw22g/mk3iKi0LF1Mp3OlwIWPZyogQiNRM/MZuHSEX1azWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbTR3u6sBZ//ijfpflyC39z0tLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:56:12 DEBUG RestLoggerImpl:16 - ++++++org.krisbox.birt.examples.models.Authentication@bd8db5a
+2016-10-25 12:56:12 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:56:12 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:56:12 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:56:12 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:56:12 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:56:12 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:56:12 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Content-Length: 489[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:56:12 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:12 DEBUG headers:283 - >> Content-Length: 489
+2016-10-25 12:56:12 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:56:12 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:56:12 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:56:12 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:56:12 DEBUG wire:86 -  >> "authToken=uOxDI1AJiikev87oz%2FKXOYw22g%2Fmk3iKi0LF1Mp3OlwIWPZyogQiNRM%2FMZuHSEX1azWkzO%2Fa93vmTfkA5OvbXjHU1F%2FVtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu%2FtaBiKfpBfEps8w0CPgoAgnksCJ46LogP%2FxldlAcWy9cE8yjQU1mLCN%2FDlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst%2BEaLWZw5DPOOKivbln8EB3Mq%2Bbmwf%2BG%2FpTmeX%2B8c9nAbTR3u6sBZ%2F%2FijfpflyC39z0tLO54Q4Ng6UT3%2BNop7Z2R7E5%2B1k5GNNifpkL0osQaE&id=800000000000&name=testNameOnIhub.txt&file=%5BB%402f943d71"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Content-Length: 116[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:05:27 GMT[\r][\n]"
+2016-10-25 12:56:12 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:56:12 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 401 Unauthorized
+2016-10-25 12:56:12 DEBUG headers:264 - << HTTP/1.1 401 Unauthorized
+2016-10-25 12:56:12 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:56:12 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:56:12 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:56:12 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:56:12 DEBUG headers:267 - << Content-Length: 116
+2016-10-25 12:56:12 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:05:27 GMT
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:77 - Authentication required
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:107 - ihub.demoimage.com:8000 requested authentication
+2016-10-25 12:56:12 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2016-10-25 12:56:12 DEBUG wire:86 -  << "{"error":{"code":3009,"message":"The specified user name or password is invalid.","parameters":"","description":""}}"
+2016-10-25 12:56:12 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69a3d1d
+2016-10-25 12:56:12 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:56:12 DEBUG RestLoggerImpl:16 - {"error":{"code":3009,"message":"The specified user name or password is invalid.","parameters":"","description":""}}
+2016-10-25 12:56:40 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:56:40 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:56:40 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:56:40 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:56:41 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:56:41 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:56:41 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:56:41 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:56:41 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:56:41 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:56:41 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:56:41 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:56:41 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:41 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:56:41 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:56:41 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:56:41 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:56:41 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:56:41 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:05:59 GMT[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:56:41 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:56:41 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:56:41 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:56:41 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:56:41 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:56:41 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:56:41 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:05:59 GMT
+2016-10-25 12:56:41 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:56:41 DEBUG wire:86 -  << "{"authToken":"uOxDI1AJiilKQwREmBg02pHXfovcDpZlPRsjOjqOPAPAHR9lNA/SR0QUouhvhXsZazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbejou/DQBXG/3PtXsn5G/7EtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:56:41 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:56:41 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:56:41 DEBUG RestLoggerImpl:16 - {"authToken":"uOxDI1AJiilKQwREmBg02pHXfovcDpZlPRsjOjqOPAPAHR9lNA/SR0QUouhvhXsZazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbejou/DQBXG/3PtXsn5G/7EtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:56:41 DEBUG RestLoggerImpl:16 - ++++++org.krisbox.birt.examples.models.Authentication@bd8db5a
+2016-10-25 12:56:41 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:56:41 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:56:41 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:56:41 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:56:41 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:56:41 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:56:41 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:56:41 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Content-Length: 510[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:56:41 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:56:41 DEBUG headers:283 - >> Content-Length: 510
+2016-10-25 12:56:41 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:56:41 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:56:41 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:56:41 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:56:41 DEBUG wire:86 -  >> "username=Administrator&authToken=uOxDI1AJiilKQwREmBg02pHXfovcDpZlPRsjOjqOPAPAHR9lNA%2FSR0QUouhvhXsZazWkzO%2Fa93vmTfkA5OvbXjHU1F%2FVtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu%2FtaBiKfpBfEps8w0CPgoAgnksCJ46LogP%2FxldlAcWy9cE8yjQU1mLCN%2FDlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst%2BEaLWZw5DPOOKivbln8EB3Mq%2Bbmwf%2BG%2FpTmeX%2B8c9nAbejou%2FDQBXG%2F3PtXsn5G%2F7EtLO54Q4Ng6UT3%2BNop7Z2R7E5%2B1k5GNNifpkL0osQaE&id=800000000000&name=testNameOnIhub.txt&file=%5BB%402f943d71"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:05:59 GMT[\r][\n]"
+2016-10-25 12:56:41 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:56:41 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:56:41 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:56:41 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:56:41 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:56:41 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:56:41 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:56:41 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:56:41 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:05:59 GMT
+2016-10-25 12:56:41 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:56:41 DEBUG wire:86 -  << "{"authToken":"uOxDI1AJiikd0UAopwjEJZHXfovcDpZlPRsjOjqOPAPAHR9lNA/SR0QUouhvhXsZazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbejou/DQBXG/3PtXsn5G/7EtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:56:41 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69a3d1d
+2016-10-25 12:56:41 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:56:41 DEBUG RestLoggerImpl:16 - {"authToken":"uOxDI1AJiikd0UAopwjEJZHXfovcDpZlPRsjOjqOPAPAHR9lNA/SR0QUouhvhXsZazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbejou/DQBXG/3PtXsn5G/7EtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:57:22 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:57:22 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:57:22 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:57:22 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:57:22 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:57:22 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:57:22 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:57:22 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:57:22 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:57:22 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:57:22 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:57:22 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:57:22 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:57:22 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:57:22 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:06:43 GMT[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:57:22 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:57:22 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:57:22 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:57:22 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:57:22 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:57:22 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:57:22 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:06:43 GMT
+2016-10-25 12:57:22 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:57:22 DEBUG wire:86 -  << "{"authToken":"A4Ls/GymE6nx+AT9fTHCeayHSRpBaPEgSXraylMXghhkluyIhVPFYQuXQjkDZ0HfazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAb8+RrWWjJ9XGsMSwQ5gfyeUtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:57:22 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:57:22 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - {"authToken":"A4Ls/GymE6nx+AT9fTHCeayHSRpBaPEgSXraylMXghhkluyIhVPFYQuXQjkDZ0HfazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAb8+RrWWjJ9XGsMSwQ5gfyeUtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - ++++++org.krisbox.birt.examples.models.Authentication@bd8db5a
+2016-10-25 12:57:22 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:57:22 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:57:22 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:57:22 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:57:22 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:57:22 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:57:22 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:57:22 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Content-Length: 508[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:57:22 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:57:22 DEBUG headers:283 - >> Content-Length: 508
+2016-10-25 12:57:22 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:57:22 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:57:22 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:57:22 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:57:22 DEBUG wire:86 -  >> "username=Administrator&authToken=A4Ls%2FGymE6nx%2BAT9fTHCeayHSRpBaPEgSXraylMXghhkluyIhVPFYQuXQjkDZ0HfazWkzO%2Fa93vmTfkA5OvbXjHU1F%2FVtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu%2FtaBiKfpBfEps8w0CPgoAgnksCJ46LogP%2FxldlAcWy9cE8yjQU1mLCN%2FDlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst%2BEaLWZw5DPOOKivbln8EB3Mq%2Bbmwf%2BG%2FpTmeX%2B8c9nAb8%2BRrWWjJ9XGsMSwQ5gfyeUtLO54Q4Ng6UT3%2BNop7Z2R7E5%2B1k5GNNifpkL0osQaE&id=800000000000&name=testNameOnIhub.txt&file=%5BB%402f943d71"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:06:43 GMT[\r][\n]"
+2016-10-25 12:57:22 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:57:22 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:57:22 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:57:22 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:57:22 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:57:22 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:57:22 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:57:22 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:57:22 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:06:43 GMT
+2016-10-25 12:57:22 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:57:22 DEBUG wire:86 -  << "{"authToken":"A4Ls/GymE6kefdpN8tzvmd31EjJTOh7o0lcbPuqTrtW1TEh8u5ueN2LEmCOcq+VsazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbJduyV1Mt4jr61BRn4ScDtktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:57:22 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69a3d1d
+2016-10-25 12:57:22 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:57:22 DEBUG RestLoggerImpl:16 - +++++++++++{"authToken":"A4Ls/GymE6kefdpN8tzvmd31EjJTOh7o0lcbPuqTrtW1TEh8u5ueN2LEmCOcq+VsazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAbJduyV1Mt4jr61BRn4ScDtktLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - Tests()
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - PingPropertiesImpl()
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - PingPropertiesImpl.readProperties()
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - Administrator
+2016-10-25 12:57:51 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:57:51 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:57:51 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:57:51 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:57:51 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:57:51 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:57:51 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:57:51 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/login HTTP/1.1
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "POST /api/v2/login HTTP/1.1[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Content-Length: 54[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:57:51 DEBUG headers:280 - >> POST /api/v2/login HTTP/1.1
+2016-10-25 12:57:51 DEBUG headers:283 - >> Content-Length: 54
+2016-10-25 12:57:51 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:57:51 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:57:51 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:57:51 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:57:51 DEBUG wire:86 -  >> "username=Administrator&password=&volume=Default+Volume"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Content-Length: 532[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:07:15 GMT[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:57:51 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 200 OK
+2016-10-25 12:57:51 DEBUG headers:264 - << HTTP/1.1 200 OK
+2016-10-25 12:57:51 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:57:51 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:57:51 DEBUG headers:267 - << Content-Type: application/json;charset=utf-8
+2016-10-25 12:57:51 DEBUG headers:267 - << Content-Length: 532
+2016-10-25 12:57:51 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:07:15 GMT
+2016-10-25 12:57:51 DEBUG DefaultHttpClient:511 - Connection can be kept alive indefinitely
+2016-10-25 12:57:51 DEBUG wire:86 -  << "{"authToken":"A4Ls/GymE6mc1eu3UvKrwz4W4By1/726OQ7bX+YaNA4HPvu6HmJjd+O7POS8fApBazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAb9BBYXE0oR4Co+tlArJU6wEtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}"
+2016-10-25 12:57:51 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5cb9f472
+2016-10-25 12:57:51 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - {"authToken":"A4Ls/GymE6mc1eu3UvKrwz4W4By1/726OQ7bX+YaNA4HPvu6HmJjd+O7POS8fApBazWkzO/a93vmTfkA5OvbXjHU1F/VtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu/taBiKfpBfEps8w0CPgoAgnksCJ46LogP/xldlAcWy9cE8yjQU1mLCN/DlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst+EaLWZw5DPOOKivbln8EB3Mq+bmwf+G/pTmeX+8c9nAb9BBYXE0oR4Co+tlArJU6wEtLO54Q4Ng6UT3+Nop7Z2R7E5+1k5GNNifpkL0osQaE","adminRights":"Administrator","user":{"id":"100000000000","username":"Administrator","email":"","homeFolder":"/Home/administrator"}}
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - ++++++org.krisbox.birt.examples.models.Authentication@bd8db5a
+2016-10-25 12:57:51 DEBUG BasicClientConnectionManager:164 - Get connection for route {}->http://ihub.demoimage.com:8000
+2016-10-25 12:57:51 DEBUG DefaultClientConnectionOperator:176 - Connecting to ihub.demoimage.com:8000
+2016-10-25 12:57:51 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2016-10-25 12:57:51 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2016-10-25 12:57:51 DEBUG RequestTargetAuthentication:79 - Target auth state: UNCHALLENGED
+2016-10-25 12:57:51 DEBUG RequestProxyAuthentication:88 - Proxy auth state: UNCHALLENGED
+2016-10-25 12:57:51 DEBUG DefaultHttpClient:684 - Attempt 1 to execute request
+2016-10-25 12:57:51 DEBUG DefaultClientConnection:276 - Sending request: POST /api/v2/files/upload HTTP/1.1
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "POST /api/v2/files/upload HTTP/1.1[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Content-Length: 489[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Host: ihub.demoimage.com:8000[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  >> "[\r][\n]"
+2016-10-25 12:57:51 DEBUG headers:280 - >> POST /api/v2/files/upload HTTP/1.1
+2016-10-25 12:57:51 DEBUG headers:283 - >> Content-Length: 489
+2016-10-25 12:57:51 DEBUG headers:283 - >> Content-Type: application/x-www-form-urlencoded
+2016-10-25 12:57:51 DEBUG headers:283 - >> Host: ihub.demoimage.com:8000
+2016-10-25 12:57:51 DEBUG headers:283 - >> Connection: Keep-Alive
+2016-10-25 12:57:51 DEBUG headers:283 - >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_101)
+2016-10-25 12:57:51 DEBUG wire:86 -  >> "authToken=A4Ls%2FGymE6mc1eu3UvKrwz4W4By1%2F726OQ7bX%2BYaNA4HPvu6HmJjd%2BO7POS8fApBazWkzO%2Fa93vmTfkA5OvbXjHU1F%2FVtcUAvUCfqbtHkzsu2P0Od8lBbmngFJapxc1ZyY70U78WeQu%2FtaBiKfpBfEps8w0CPgoAgnksCJ46LogP%2FxldlAcWy9cE8yjQU1mLCN%2FDlHJAmv6vKCoek66V0MwGpgNDnPae0ugTNmHx094NIcTIRCFrskKzlAZgq38jVuAXNn41NpX8pEmcCWst%2BEaLWZw5DPOOKivbln8EB3Mq%2Bbmwf%2BG%2FpTmeX%2B8c9nAb9BBYXE0oR4Co%2BtlArJU6wEtLO54Q4Ng6UT3%2BNop7Z2R7E5%2B1k5GNNifpkL0osQaE&id=800000000000&name=testNameOnIhub.txt&file=%5BB%402f943d71"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Vary: Accept-Encoding[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Content-Type: */*[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Content-Length: 4081[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Date: Thu, 20 Oct 2016 05:07:15 GMT[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2016-10-25 12:57:51 DEBUG wire:72 -  << "[\r][\n]"
+2016-10-25 12:57:51 DEBUG DefaultClientConnection:261 - Receiving response: HTTP/1.1 500 Internal Server Error
+2016-10-25 12:57:51 DEBUG headers:264 - << HTTP/1.1 500 Internal Server Error
+2016-10-25 12:57:51 DEBUG headers:267 - << Server: Apache-Coyote/1.1
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Allow-Origin: *
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Allow-Methods: POST, OPTIONS, GET, PUT, DELETE, PATCH
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, AuthToken, Locale, TargetVolume
+2016-10-25 12:57:51 DEBUG headers:267 - << Access-Control-Expose-Headers: Location
+2016-10-25 12:57:51 DEBUG headers:267 - << Vary: Accept-Encoding
+2016-10-25 12:57:51 DEBUG headers:267 - << Content-Type: */*
+2016-10-25 12:57:51 DEBUG headers:267 - << Content-Length: 4081
+2016-10-25 12:57:51 DEBUG headers:267 - << Date: Thu, 20 Oct 2016 05:07:15 GMT
+2016-10-25 12:57:51 DEBUG headers:267 - << Connection: close
+2016-10-25 12:57:51 DEBUG wire:86 -  << "{"code":25004,"message":"Internal server error.","description":"HTTP 415 Unsupported Media Type\r\n\r\nStack trace:\r\n\r\njavax.ws.rs.NotSupportedException: HTTP 415 Unsupported Media Type\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter.getMethodRouter(MethodSelectingRouter.java:478)\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter.access$000(MethodSelectingRouter.java:94)\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter$4.apply(MethodSelectingRouter.java:779)\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter.apply(MethodSelectingRouter.java:371)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:109)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:112)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:112)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(Routin"
+2016-10-25 12:57:51 DEBUG wire:86 -  << "gStage.java:112)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:92)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:61)\n\tat org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)\n\tat org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:301)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:315)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:297)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:267)\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:292)\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1139)\n\tat org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:460)\n\tat org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)\n\tat org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)\n\tat org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)\n\tat com.actuate.iserver.services.api.rest.RestCORSFilter.doFilter(RestCORSFilter.java:61)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)\n\tat org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)\n\tat org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)\n\tat org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)\n\tat org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:745)\n"}"
+2016-10-25 12:57:51 DEBUG BasicClientConnectionManager:203 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7d70d1b1
+2016-10-25 12:57:51 DEBUG DefaultClientConnection:166 - Connection 0.0.0.0:59240<->10.211.55.8:8000 shut down
+2016-10-25 12:57:51 DEBUG RestLoggerImpl:16 - +++++++++++{"code":25004,"message":"Internal server error.","description":"HTTP 415 Unsupported Media Type\r\n\r\nStack trace:\r\n\r\njavax.ws.rs.NotSupportedException: HTTP 415 Unsupported Media Type\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter.getMethodRouter(MethodSelectingRouter.java:478)\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter.access$000(MethodSelectingRouter.java:94)\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter$4.apply(MethodSelectingRouter.java:779)\n\tat org.glassfish.jersey.server.internal.routing.MethodSelectingRouter.apply(MethodSelectingRouter.java:371)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:109)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:112)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:112)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:112)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:92)\n\tat org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:61)\n\tat org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)\n\tat org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:301)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:271)\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:267)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:315)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:297)\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:267)\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317)\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:292)\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1139)\n\tat org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:460)\n\tat org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:386)\n\tat org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:334)\n\tat org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:221)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)\n\tat com.actuate.iserver.services.api.rest.RestCORSFilter.doFilter(RestCORSFilter.java:61)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)\n\tat org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)\n\tat org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)\n\tat org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)\n\tat org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:745)\n"}
